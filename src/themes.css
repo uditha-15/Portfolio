@@ -1,0 +1,24 @@
+:root {
+  --bg: #FDFBFA;          /* Hazy Pearl - Light Background */
+  --text: #3C3A4F;        /* Ink Smoke - Light Text */
+  --accent1: #D8C7E5;     /* Moon Lavender - Accent */
+  --accent2: #F7CED7;     /* Blush Petal - Accent Hover */
+  --shadow: #EDE6F4;      /* Dream Dust - Soft Shadow */
+  --highlight: #DFF4ED;   /* Cloud Mint - Highlight Tint */
+}
+
+[data-theme='dark'] {
+  --bg: #2E294E;          /* Velvet Indigo - Dark Background */
+  --text: #FAF9F6;        /* Ivory Mist - Light Text */
+  --accent1: #BFA0E2;     /* Aurora Lilac - Accent */
+  --accent2: #E8A2B9;     /* Rose Glow - Accent Hover */
+  --shadow: #3F375F;      /* Soft Plum Smoke - Card/Glass Glow */
+  --highlight: #BCE1DD;   /* Moonlight Teal - Highlight Tint */
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+}
