@@ -46,7 +46,7 @@ export default function Home({ setActiveSection }) {
       {/* Left side: photo + bio */}
       <div style={{ flex: '1 1 280px', maxWidth: '320px', textAlign: 'center' }}>
         <img 
-          src="/pp.png" 
+          src="/pp.jpg" 
           alt="Uditha" 
           style={{ 
             width: '220px',          
