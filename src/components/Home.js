@@ -61,7 +61,7 @@ export default function Home({ setActiveSection }) {
         <p style={{ fontSize: '1.1rem', lineHeight: '1.5', color: 'var(--text)', padding: '0 10px', textAlign:'justify' }}>
           A curious mind on a mission to build intelligent systems that solve real-world problems.
 
-I believe AI exists to automate the boring stuff, so humans can focus on the *cool* stuff.
+I believe AI exists to automate the boring stuff, so humans can focus on the cool stuff.
 
 I love tackling new challenges every day — the more complex, the better.
 
